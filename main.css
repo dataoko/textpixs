@@ -1,0 +1,14 @@
+body { font-size: 11px; background-color: #333; font-family: Helvetica;  }
+div.a123, h3 {float: left; width: 290px; color: #666; margin: 10px}
+h3 {font-size: 20px;margin-bottom:0px;}
+div.a123 div {border-top: 1px solid #222;border-bottom: 1px solid #222; height: 5px; width: 6px;}
+div.a123 div:hover {border: 2px solid #fff; border-width:2px 1px;width:4px;height:3px; }
+div#info {width:500px; float: left; margin: 10px}
+div#info a {color: #666;}
+div#zoom {font-size: 26px; color: 606060; font-weight: bold; text-align:center;background-color:#202020;}
+div#exp0 {font-size: 26px; color: #4e0; font-weight: bold; text-align:center;background-color:#2a2a2a;}
+div#exp1 {font-size: 26px; color: #0bf; font-weight: bold; text-align:center;background-color:#2a2a2a;}
+div#exp2 {font-size: 26px; color: #c0e; font-weight: bold; text-align:center;background-color:#2a2a2a;}
+div#info div.act {background-color:#303030;}
+div#words a {background-color: #363636; margin:3px; padding:0px 3px;}
+abody div div.in {border: 2px solid #4f4;}
