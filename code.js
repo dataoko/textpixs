@@ -5,7 +5,6 @@ function create() {
     _c.doeach(function(x){if(x){expose(x,stem(x))}},window.location.hash.substr(1).split(","));
     createWalls(function(){return this});
     $get("words").innerHTML = genWords(D);
-    
     document.onkeypress = (function(e){var k = e?e.which:window.event.keyCode; if (k == 32) { read(); return false; }})
 }
 
@@ -44,11 +43,6 @@ function expose(w,sw) {
     rotate();rehash();
 }
 
-function readTimer(){
-		     function resetTimer() {
-			 window.clearTimeout(timerHandle);
-			 timerHandle = setTimeout("alert('Hello')",3000);
-		     }}
 function stem(w) { return (sre.test(w)?sre.exec(w)[1]:w) }
 function count(w) {D[w]=D[w]?D[w]+1:1}
 function rehash() {window.location.hash=_c.reduceI(function(ac,x,i){return ac+(i==0?"":",")+x},words,"")}
